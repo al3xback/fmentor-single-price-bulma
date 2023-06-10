@@ -10292,18 +10292,6 @@ html {
 }
 
 .card--custom .section {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-direction: normal;
-  -webkit-box-orient: vertical;
-  -moz-box-direction: normal;
-  -moz-box-orient: vertical;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
   -webkit-flex-grow: 1;
