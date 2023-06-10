@@ -1,0 +1,26 @@
+{
+	"name": "fmentor-single-price-bulma",
+	"version": "1.0.0",
+	"description": "single price component project using bulma",
+	"main": "index.js",
+	"scripts": {
+		"dev": "sass --watch scss/main.scss css/main.css",
+		"build": "sass scss/main.scss css/main.css",
+		"lint": "prettier --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/al3xback/fmentor-single-price-bulma.git"
+	},
+	"author": "alex <al3xback@gmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/al3xback/fmentor-single-price-bulma/issues"
+	},
+	"homepage": "https://github.com/al3xback/fmentor-single-price-bulma#readme",
+	"devDependencies": {
+		"bulma": "^0.9.4",
+		"prettier": "^2.8.8",
+		"sass": "^1.62.1"
+	}
+}

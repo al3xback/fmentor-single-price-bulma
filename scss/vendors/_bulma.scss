@@ -1,0 +1,12 @@
+@use '../abstracts/variables' as var;
+@use '../abstracts/functions' as func;
+
+@forward '../../node_modules/bulma/bulma.sass' with (
+	$card-color: inherit,
+	$card-background-color: var.$color-white,
+	$card-radius: 8px,
+	$card-shadow: 0 func.em(16, var.$font-size-primary)
+		func.em(30, var.$font-size-primary) rgba(0, 0, 0, 0.04),
+	$footer-padding: 1rem 0,
+	$footer-background-color: transparent
+);
