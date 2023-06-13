@@ -2646,9 +2646,9 @@ a.tag:hover {
 }
 
 .subtitle {
-  color: hsl(0, 0%, 29%);
-  font-size: 1.25rem;
-  font-weight: 400;
+  color: hsl(71, 73%, 54%);
+  font-size: 1.0714285714em;
+  font-weight: 700;
   line-height: 1.25;
 }
 .subtitle strong {
@@ -10296,9 +10296,6 @@ h3.title {
 
 .subtitle:not(:last-child) {
   margin-bottom: 1.0666666667em;
-  font-size: 1.0714285714em;
-  font-weight: 700;
-  color: hsl(71, 73%, 54%);
 }
 
 .button {
@@ -10337,7 +10334,7 @@ h3.title {
   h2.title {
     font-size: 1.7142857143em;
   }
-  .subtitle:not(:last-child) {
+  .subtitle {
     font-size: 1.2857142857em;
   }
 }

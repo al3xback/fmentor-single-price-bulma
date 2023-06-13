@@ -17,9 +17,6 @@ h3.title {
 
 .subtitle:not(:last-child) {
 	margin-bottom: func.em(16, 15);
-	font-size: func.em(15, var.$font-size-primary);
-	font-weight: var.$font-weight-700;
-	color: var.$color-bright-yellow;
 }
 
 .button {
@@ -57,7 +54,7 @@ h3.title {
 		font-size: func.em(24, var.$font-size-primary);
 	}
 
-	.subtitle:not(:last-child) {
+	.subtitle {
 		font-size: func.em(18, var.$font-size-primary);
 	}
 }
