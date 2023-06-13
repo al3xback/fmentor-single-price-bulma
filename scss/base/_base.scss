@@ -1,6 +1,4 @@
-@use 'sass:math';
 @use '../abstracts/variables' as var;
-@use '../abstracts/functions' as func;
 @use '../abstracts/mixins' as mix;
 
 body {
@@ -13,4 +11,8 @@ ul,
 ol {
 	margin: 0;
 	padding: 0;
+}
+
+.link {
+	color: var.$color-cyan;
 }

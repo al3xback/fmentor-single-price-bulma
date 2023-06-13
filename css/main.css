@@ -10480,6 +10480,10 @@ ol {
   padding: 0;
 }
 
+.link {
+  color: hsl(179, 62%, 43%);
+}
+
 .card {
   width: 100%;
   margin: 2.8571428571em 0 4.2857142857em;
