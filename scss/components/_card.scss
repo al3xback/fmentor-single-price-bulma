@@ -9,6 +9,10 @@
 	overflow: hidden;
 }
 
+.subtitle {
+	display: block;
+}
+
 .section {
 	@include mix.flex-grow(1);
 }

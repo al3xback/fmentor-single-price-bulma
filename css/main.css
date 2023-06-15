@@ -10453,7 +10453,6 @@ strong {
 }
 
 mark {
-  display: block;
   background-color: transparent;
   font-size: 1.0714285714em;
   font-weight: 700;
@@ -10488,6 +10487,10 @@ ol {
   width: 100%;
   margin: 2.8571428571em 0 4.2857142857em;
   overflow: hidden;
+}
+
+.subtitle {
+  display: block;
 }
 
 .section {
