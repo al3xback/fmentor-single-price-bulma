@@ -21,8 +21,8 @@ h3.title {
 
 .button {
 	padding: func.em(12, var.$font-size-primary);
-	@include mix.box-shadow(0rem 0.5em 1.125em rgba(0, 0, 0, 0.2));
-	@include mix.transition(all 0.4s);
+	box-shadow: 0rem 0.5em 1.125em rgba(0, 0, 0, 0.2);
+	transition: all 0.4s;
 }
 
 .button.is-primary {

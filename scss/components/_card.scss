@@ -14,7 +14,7 @@
 }
 
 .section {
-	@include mix.flex-grow(1);
+	flex-grow: 1;
 }
 
 .section--monthly-subsription,
@@ -37,8 +37,8 @@
 }
 
 .price {
-	@include mix.flexbox;
-	@include mix.align-items(center);
+	display: flex;
+	align-items: center;
 	margin-top: func.em(-6, var.$font-size-primary);
 	font-size: func.em(16, var.$font-size-primary);
 }
