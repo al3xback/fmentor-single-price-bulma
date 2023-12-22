@@ -13,8 +13,7 @@
 	$body-line-height: math.div(24, 14),
 	$card-background-color: var.$color-white,
 	$card-radius: 8px,
-	$card-shadow: 0 func.em(16, var.$font-size-primary)
-		func.em(30, var.$font-size-primary) rgba(0, 0, 0, 0.04),
+	$card-shadow: 0 16px 30px rgba(0, 0, 0, 0.04),
 	$card-color: inherit,
 	$section-padding: func.em(26, var.$font-size-primary)
 		func.em(24, var.$font-size-primary),
