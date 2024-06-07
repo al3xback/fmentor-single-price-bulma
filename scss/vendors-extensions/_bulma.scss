@@ -5,22 +5,21 @@
 	margin-bottom: 1em;
 }
 
-h2.title {
-	font-size: func.em(20, var.$font-size-primary);
+.title {
+	font-size: func.em(21, var.$font-size-primary);
 }
 
-h3.title {
+.columns .title {
 	font-size: func.em(18, var.$font-size-primary);
 	color: inherit;
 }
 
 .subtitle:not(:last-child) {
-	margin-bottom: func.em(16, 15);
+	margin-bottom: func.em(12, var.$font-size-primary);
 }
 
 .button {
 	padding: func.em(12, var.$font-size-primary);
-	box-shadow: 0rem 0.5em 1.125em rgba(0, 0, 0, 0.2);
 	transition: all 0.4s;
 }
 
@@ -34,8 +33,9 @@ h3.title {
 .button.is-primary.is-hovered,
 .button.is-primary:active,
 .button.is-primary.is-active {
-	background-color: var.$color-bright-yellow-dark;
-	border-color: var.$color-bright-yellow-dark;
+	background-color: var.$color-bright-yellow;
+	border-color: var.$color-bright-yellow;
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 	color: var.$color-white;
 }
 
